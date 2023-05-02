@@ -1,0 +1,31 @@
+:root {
+	--red: #ff0000;
+	--blue: #0000ff;
+	--green: #00ff00;
+	--yellow: #ffff00;
+	--purple: #800080;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.flipped {
+    background-color: var(--color);
+}
+
+.matched {
+    background-color: var(--color);
+    border: 2px solid var(--color);
+    cursor: default;
+}
